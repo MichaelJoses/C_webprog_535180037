@@ -1,0 +1,53 @@
+body {
+    background-image: url("background1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+
+.box-content{
+    padding: 10px;
+    border: 5px solid rgba(59, 59, 59, 0.945);
+    background-color: rgba(59, 59, 59, 0.945);
+    width: 430px;
+    height: auto;
+    position: relative;
+    margin: auto;
+  }
+
+.box-content{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+h1{
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 60pt;
+}
+
+.card{
+    position: relative;
+    margin: auto;
+}
+
+.img-container{
+    border-radius: 50%;
+}
+
+.list-group-item{
+    font-size: x-large;
+    font-family: "Microsoft JhengHei UI";
+}
+
+.icon-fb{
+    height: 150px;
+    width: 150px;
+    display: block;
+    position: relative;
+    margin: auto;
+}
+
+
