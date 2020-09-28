@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        function Add(id, inp1, inp2) {
+            document.getElementById(id).value = Number(inp1) + Number(inp2);
+        }
+        function Sub(id, inp1, inp2) {
+            document.getElementById(id).value = Number(inp1) - Number(inp2);
+        }
+        function Multiply(id, inp1, inp2) {
+            document.getElementById(id).value = Number(inp1) * Number(inp2);
+        }
+        function Divide(id, inp1, inp2) {
+            document.getElementById(id).value = Number(inp1) / Number(inp2);
+        }
+        function Modulo(id, inp1, inp2) {
+            document.getElementById(id).value = Number(inp1) % Number(inp2);
+        }
+        function Hand(id, inp1, inp2) {
+            document.getElementById(id).value = Number(inp1) ** Number(inp2);
+        }
+    </script>
+</head>
+<body>
+    <input type="number" id="iNumAdd1" /> +
+    <input type="number" id="iNumAdd2" />
+    <button type="button"
+        onclick='Add("oResAdd", document.getElementById("iNumAdd1").value , document.getElementById("iNumAdd2").value)'>=</button>
+    <input type="number" id="oResAdd" />
+
+    <br><br>
+
+    <input type="number" id="iNumSub1" /> -
+    <input type="number" id="iNumSub2" />
+    <button type="button"
+        onclick='Sub("oResSub", document.getElementById("iNumSub1").value , document.getElementById("iNumSub2").value)'>=</button>
+    <input type="number" id="oResSub" />
+
+    <br><br>
+
+    <input type="number" id="iNumTimes1" /> *
+    <input type="number" id="iNumTimes2" />
+    <button type="button"
+        onclick='Multiply("oResTimes", document.getElementById("iNumTimes1").value , document.getElementById("iNumTimes2").value)'>=</button>
+    <input type="number" id="oResTimes" />
+
+    <br><br>
+
+    <input type="number" id="iNumDiv1" /> /
+    <input type="number" id="iNumDiv2" />
+    <button type="button"
+        onclick='Divide("oResDiv", document.getElementById("iNumDiv1").value , document.getElementById("iNumDiv2").value)'>=</button>
+    <input type="number" id="oResDiv" />
+
+    <br><br>
+
+    <input type="number" id="iNumMod1" /> %
+    <input type="number" id="iNumMod2" />
+    <button type="button"
+        onclick='Modulo("oResMod", document.getElementById("iNumMod1").value , document.getElementById("iNumMod2").value)'>=</button>
+    <input type="number" id="oResMod" />
+
+    <br><br>
+
+    <input type="number" id="iNumHand1" /> ^
+    <input type="number" id="iNumHand2" />
+    <button type="button"
+        onclick='Hand("oResHand", document.getElementById("iNumHand1").value , document.getElementById("iNumHand2").value)'>=</button>
+    <input type="number" id="oResHand" />
+</body>
+</html>

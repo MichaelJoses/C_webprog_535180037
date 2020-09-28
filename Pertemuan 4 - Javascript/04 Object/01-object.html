@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+
+        var Person = { Email: "michael.535180037@stu.untar.ac.id", NIM: "535180037", Nama: "Michael" };
+
+        function LoadObject() {
+            document.getElementById("iPerson").value =
+                "Email: " + Person.Email + " " +
+                "NIM: " + Person.NIM + " " +
+                "Nama: " + Person.Nama;
+        }
+    </script>
+</head>
+<body>
+    <button type="button" onclick='LoadObject()'>Load</button>
+
+    <input type="text" id="iPerson" style="width: 550px;" readonly />
+</body>
+</html>

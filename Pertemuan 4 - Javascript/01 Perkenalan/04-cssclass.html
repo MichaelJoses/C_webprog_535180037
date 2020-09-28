@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css class</title>
+    <style>
+        .biru {
+            color: aqua;
+        }
+
+        .Hide {
+            visibility: hidden;
+        }
+
+        .Show {
+            visibility: visible;
+        }
+    </style>
+</head>
+<body>
+    <button type="button" onclick='document.getElementById("p1").className="biru"'>Go</button>
+    <p id="p1">As blue as the clear sea.</p>
+
+    <br />
+
+    <button type="button" onclick='document.getElementById("p2").className="Hide"'>Hide paragraph 1</button>
+    <button type="button" onclick='document.getElementById("p2").className="Show"'>Show paragraph 1</button>
+    <p id="p2">Contoh kalimat 1</p>
+    <p>Silahkan perhatikan kalimat diatas/p>
+</body>
+</html>
